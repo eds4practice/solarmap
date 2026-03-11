@@ -29,7 +29,7 @@
   justify-content: center;
   position: relative;
   width: 100%;
-  min-height: min(50vw, calc(100dvh - var(--header-height)));
+  min-height: 100vh;
 }
 
 .carousel .carousel-slide:has(.carousel-slide-content[data-align='center']) {
@@ -69,6 +69,7 @@
   padding: 12px;
   background-color: var(--light-color);
   line-height: 0;
+  display: none;
 }
 
 .carousel .carousel-slide-indicator button {

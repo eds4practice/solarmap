@@ -1,0 +1,14 @@
+.slider-container {
+  background-color: #0659D4;
+}
+.slider > div {
+  display: flex;
+  padding: 60px 0;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.slider > div div{
+  column-gap: 24px;
+  flex-grow: 1;
+  text-align: center;
+}
